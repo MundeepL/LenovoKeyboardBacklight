@@ -3,7 +3,7 @@ Powershell scripts for Lenovo compatible with Lenovo laptops which use Lenovo Sy
 
 ## Requirements
 - [Lenovo System Interface Foundation](https://pcsupport.lenovo.com/es/es/downloads/ds105970-lenovo-system-interface-foundation-for-windows-10-32-bit-64-bit-thinkpad-thinkcentre-ideapad-ideacentre-thinkstation)
-- auto-keyboard-backlight.ps1 (enables or disables the keyboard backlight)
+- [auto-keyboard-backlight.ps1](https://github.com/MundeepL/LenovoKeyboardBacklight/blob/main/auto-keyboard-backlight/auto-keyboard-backlight.ps1) (enables or disables the keyboard backlight)
 
 ## Usage:
 - Run script with Powershell 32-bit (x86) located '**C:\Windows\syswow64\WindowsPowerShell\v1.0\powershell.exe**'
