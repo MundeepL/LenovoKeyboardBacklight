@@ -3,9 +3,7 @@ Powershell scripts for Lenovo compatible with Lenovo laptops which use Lenovo Sy
 
 ## Requirements
 - [Lenovo System Interface Foundation](https://pcsupport.lenovo.com/es/es/downloads/ds105970-lenovo-system-interface-foundation-for-windows-10-32-bit-64-bit-thinkpad-thinkcentre-ideapad-ideacentre-thinkstation)
-
-- # auto-keyboard-backlight.ps1
-Enables or disables the keyboard backlight
+- auto-keyboard-backlight.ps1 (enables or disables the keyboard backlight)
 
 ## Usage:
 - Run script with Powershell 32-bit (x86) located '**C:\Windows\syswow64\WindowsPowerShell\v1.0\powershell.exe**'
@@ -18,7 +16,7 @@ If you want to schedule the script, we'll need to do this with task scheduler. T
 
 To schedule with Task Scheduler:
 1. Click '**Create Task**'.
-2. Choose '**Run whether user is logged in or not**'. (Make use sure user that executes script has permissions to run on this machine.)
+2. Choose '**Run whether user is logged in or not**'. (ensure user that executes this script has necessary permissions)
 3. Add a trigger '**At startup**'.
 4. Add a trigger '**On an event**' if you want to support sleep and hibernation. You'll need to find the EventID in Windows Event Manager.
     1. Log: 'System'
@@ -29,5 +27,5 @@ To schedule with Task Scheduler:
 ## Note
 You may need to either adjust the Powershell execution policies or sign the Powershell script if you plan on safely deploying this in your company.
 
-## Buy me a coffee
+## Supprt the original creator
 - [PayPal](https://www.paypal.com/pools/c/create/share/8xukwldAVK)
